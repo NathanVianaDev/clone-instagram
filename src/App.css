@@ -1,0 +1,35 @@
+body {
+  background: white;
+}
+
+#root {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.conteudoLateralDireita,
+.conteudoLateralEsquerda,
+.ConteudoCentral {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.conteudoLateralEsquerda {
+  display: flex;
+  width:30vw;
+  background: white;
+  line-height: 20px;
+}
+
+.conteudoLateralDireita {
+  background: white;
+  width:30vw;
+}
+
+.ConteudoCentral {
+  width:65vw;
+  background: white;
+}
+

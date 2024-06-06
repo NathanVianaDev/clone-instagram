@@ -1,0 +1,109 @@
+.Post {
+    width: 500px;
+    align-items: center;
+}
+
+.card-header {
+    display: flex;
+    justify-content: start;
+    width: 70%;
+}
+
+.card.post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card-body {
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-body img {
+    width: 100%;
+}
+
+.card-body p{
+    margin: 0;
+}
+
+.card-post-Story {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2px;
+    width: 100%;
+    height: 100%;
+    margin-top: 0 !important;
+    padding: 10px;
+}
+
+.card-post-Story img {
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid #a81d91;
+}
+
+.card-post-imagem-perfil {
+    width: 4%;
+    margin-right: 10px;
+}
+
+h4 {
+    margin: 0;
+    margin-bottom: 7px;
+}
+
+.verificado {
+    color: rgb(64, 93, 230);
+}
+
+.componentes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.comp-ini {
+    display: flex;
+    gap: 10px;
+}
+
+.likes{
+    display: flex;
+}
+
+.likes p{
+    margin: 0;
+}
+
+span{
+    color: black;
+    font-weight: bold;
+}
+
+.card-post-imagem-like {
+    width: 4%;
+}
+
+.likes img {
+    width: 60%;
+    border-radius: 50%;
+    border: 0px solid;
+}
+
+.gray{
+    color: gray;
+}
+
+.gray p{
+    margin: 0;
+}
+
+.ago{
+    margin: 0;
+}
